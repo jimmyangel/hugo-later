@@ -6,27 +6,27 @@ This fork makes some simplifications and brings back some content features of th
 
 ## Features
 
-<img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/images/bootstrap-solid.png" alt="bootstrap 4" width="120px" height="120px"></img>
+<img src="https://raw.githubusercontent.com/jimmyangel/hugo-later/master/static/images/bootstrap-solid.png" alt="bootstrap 4" width="120px" height="120px"></img>
 
 <h3 class="mt-0">Bootstrap V4</h3>
 Update from Bootstrap 3 to 4
 
-<img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/images/font-awesome-logo.png" alt="font awesome logo" width="120px" height="120px"></img>
+<img src="https://raw.githubusercontent.com/jimmyangel/hugo-later/master/static/images/font-awesome-logo.png" alt="font awesome logo" width="120px" height="120px"></img>
 
 <h3 class="mt-0">Font Awesome</h3>
 Latest Font Awesome icons
 
-<img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/images/javascript.png" alt="no javascript" width="120px" height="120px"></img>
+<img src="https://raw.githubusercontent.com/jimmyangel/hugo-later/master/static/images/javascript.png" alt="no javascript" width="120px" height="120px"></img>
 
 <h3 class="mt-0">Progressive Enhancement</h3>
 Disabling Javascript should retain the same experience.
 
-<img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/images/sass.png" alt="sass" width="120px" height="120px"></img>
+<img src="https://raw.githubusercontent.com/jimmyangel/hugo-later/master/static/images/sass.png" alt="sass" width="120px" height="120px"></img>
 
 <h3 class="mt-0">Powerful Styling</h3>
 Using the power of SASS to power our build pipeline. All major dependencies have .scss support.
 
-<img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/images/gulp.png" alt="gulp" height="120px"></img>
+<img src="https://raw.githubusercontent.com/jimmyangel/hugo-later/master/static/images/gulp.png" alt="gulp" height="120px"></img>
 
 <h3 class="mt-0">Modern Build Pipeline</h3>
 Without Jekyll's Asset pipeline, a Hugo theme needs a build system. I opted for <a href="http://gulpjs.com/">gulp.js</a>
@@ -43,7 +43,7 @@ Available for:
 - :white_check_mark: posts / .Content
 
 
-<img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/images/pygments-logo.png" alt="pygments" width="120px" height="120px"></img>
+<img src="https://raw.githubusercontent.com/jimmyangel/hugo-later/master/static/images/pygments-logo.png" alt="pygments" width="120px" height="120px"></img>
 
 <h3 class="mt-0">Syntax Highlighting</h3>
 <p>
@@ -54,7 +54,7 @@ Rather then using a JS library like <a href="https://highlightjs.org/">hightligh
 I would argue site usability / robustness far out weighs build times.
 </p>
 
-<img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/images/google-analytics.png" alt="google analytics" width="120px" height="120px"></img>
+<img src="https://raw.githubusercontent.com/jimmyangel/hugo-later/master/static/images/google-analytics.png" alt="google analytics" width="120px" height="120px"></img>
 
 <h3 class="mt-0">Google Analytics</h3>
 Configure Google Analytics with `GoogleAnalytics`
@@ -75,7 +75,7 @@ toc: true
 
 ## Install
 
-Add Hugo Now as a submodule:
+Add Hugo Later as a submodule:
 
 `git submodule add https://github.com/jimmyangel/hugo-later.git ./themes/hugo-later`
 
@@ -169,7 +169,7 @@ Update `includes.html` with the appropriate CSS file (default is style.min.css):
 
 ### Javascript
 
-Hugo Now supports Bootstrap JS but Github Pages and others disable Javascript. This is available for sites hosted on S3 and elsewhere.
+Hugo Later supports Bootstrap JS but Github Pages and others disable Javascript. This is available for sites hosted on S3 and elsewhere.
 
 Build JS updates by running `gulp` (development) or `gulp dist` (production)
 
@@ -177,7 +177,7 @@ Update `javascript.html` with the appropriate JS files (defaults are bootstrap d
 
 ## License
 
-Hugo Now is licensed under the [MIT License](LICENSE.md).
+Hugo Later is licensed under the [MIT License](LICENSE.md).
 
 ## Author
 
