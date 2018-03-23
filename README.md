@@ -1,4 +1,4 @@
-# Hugo Now - A fork
+# Hugo Later - A fork of Hugo Now
 
 A Hugo port of [Jekyll Now](https://github.com/barryclark/jekyll-now). The Hugo implementation is inspired by [Hemingway](https://github.com/tanksuzuki/hemingway).
 
