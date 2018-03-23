@@ -96,11 +96,11 @@ Your `.gitmodules` should now contain:
 ```toml
 baseurl = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Ricardo's Blog"
 # theme
 theme = "hugo-now"
 # Comment the themesDir option if you use this theme in production
-themesDir = "../.."
+# themesDir = "../.."
 # google analytics
 GoogleAnalytics = "UA-XXXXXX"
 
@@ -109,10 +109,10 @@ GoogleAnalytics = "UA-XXXXXX"
   tag = "tags"
 
 [params]
-  description = "Hugo port of Jekyll Now"
-  author = "Hugo Now"
-  keywords = ["hugo-now", "hugo"]
-  avatar = "/images/hugo.png"
+  description = "by Ricardo Morin"
+  author = "Ricardo Morin"
+  keywords = ["rikitraki", "jimmyangel"]
+  avatar = "https://avatars1.githubusercontent.com/u/6842945"
   displayauthor = false
   # pygments
   PygmentsUseClasses = true
@@ -120,6 +120,22 @@ GoogleAnalytics = "UA-XXXXXX"
   # pagination
   paginate = 10
   paginatePath = "page"
+
+  # Includes an icon in the footer for each username you enter
+  [params.footerlinks]
+    dribbble = ""
+    email = ""
+    facebook = ""
+    flickr = ""
+    github = "jimmyangel"
+    instagram = ""
+    linkedin = ""
+    pinterest = ""
+    rss = "yes" # just type anything here for a working RSS icon, make sure you set the "url" above!
+    twitter = "jimmieangel"
+    stackoverflow = "" # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+    youtube = "" # channel/<your_long_string> or user/<user-name>
+    googleplus = "" # anything in your profile username that comes after plus.google.com/
 ```
 
 ## Content
