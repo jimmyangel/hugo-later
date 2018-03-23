@@ -77,13 +77,13 @@ toc: true
 
 Add Hugo Now as a submodule:
 
-`git submodule add https://github.com/jimmyangel/hugo-later.git ./themes/hugo-now`
+`git submodule add https://github.com/jimmyangel/hugo-later.git ./themes/hugo-later`
 
 Your `.gitmodules` should now contain:
 
 ```
 [submodule "themes/hugo-later"]
-	path = themes/hugo-now
+	path = themes/hugo-later
 	url = https://github.com/jimmyangel/hugo-later.git
 ```
 
