@@ -274,8 +274,8 @@ pre .code, pre code, .code, code {
   @extend .highlight;
   padding: 2px 4px;
   font-size: 90%;
-  color: #c7254e;
-  background-color: #f9f2f4;
+  color: $black;
+  background-color: $lightGray;
   border-radius: 4px;
 }
 
@@ -308,7 +308,7 @@ img.card-img-top {
   }
 
   @include mobile {
-    display: flex;   
+    display: flex;
     flex-wrap: wrap;
   }
 }

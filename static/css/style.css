@@ -9971,8 +9971,8 @@ pre .code, pre code, .code, code {
   /* set a max-height of 350px and provide a y-axis scrollbar. */
   padding: 2px 4px;
   font-size: 90%;
-  color: #c7254e;
-  background-color: #f9f2f4;
+  color: #000;
+  background-color: #eee;
   border-radius: 4px; }
 
 .card-inverse > .card-block > li a {
