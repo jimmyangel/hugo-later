@@ -1,40 +1,8 @@
-# Hugo Now
-
-![Powered By Hugo](https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/logo/hugo-now.png)
+# Hugo Now - A fork
 
 A Hugo port of [Jekyll Now](https://github.com/barryclark/jekyll-now). The Hugo implementation is inspired by [Hemingway](https://github.com/tanksuzuki/hemingway).
 
-## Screenshots
-
-### Home Page
-
-<img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/screenshots/homepage.png" alt="home page"></img>
-
----
-
-### Posts
-
-<img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/screenshots/post.png" alt="post"></img>
-
----
-
-### Dashboard
-
-<img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/screenshots/dashboard.png" alt="dashboard"></img>
-
----
-
-### Projects
-
-<img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/screenshots/project.png" alt="dashboard"></img>
-
----
-
-### Table of Contents
-
-<img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/screenshots/table-of-contents.png" alt="table of contents"></img>
-
----
+This fork makes some simplifications and brings back some content features of the original Jekyll Now.
 
 ## Features
 
@@ -42,7 +10,7 @@ A Hugo port of [Jekyll Now](https://github.com/barryclark/jekyll-now). The Hugo 
 
 <h3 class="mt-0">Bootstrap V4</h3>
 Update from Bootstrap 3 to 4
-      
+
 <img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/images/font-awesome-logo.png" alt="font awesome logo" width="120px" height="120px"></img>
 
 <h3 class="mt-0">Font Awesome</h3>
@@ -85,7 +53,7 @@ Rather then using a JS library like <a href="https://highlightjs.org/">hightligh
 </blockquote>
 I would argue site usability / robustness far out weighs build times.
 </p>
-      
+
 <img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/images/google-analytics.png" alt="google analytics" width="120px" height="120px"></img>
 
 <h3 class="mt-0">Google Analytics</h3>
@@ -199,7 +167,10 @@ Hugo Now is licensed under the [MIT License](LICENSE.md).
 
 [Michael Blum](https://github.com/mikeblum)
 
+## Fork
+
+[Ricardo Morin](https://github.com/jimmyangel)
+
 ## Credits
 
 is based on [Hemingway](https://github.com/tanksuzuki/hemingway) created by [Asuka Suzuki](https://github.com/tanksuzuki).
-
