@@ -9784,6 +9784,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: #222;
+  font-weight: bold;
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0; }
@@ -9814,6 +9815,7 @@ a {
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:active {
+    text-decoration: none;
     color: #4183C4; }
 
 ul, ol {

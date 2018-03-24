@@ -23,6 +23,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: $darkerGray;
+  font-weight: bold;
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -62,6 +63,7 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
+    text-decoration: none;
     color: $blue;
   }
 }
