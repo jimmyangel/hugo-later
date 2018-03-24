@@ -11,6 +11,9 @@
           <!-- supports emoji -->
           {{ .Content | emojify }}
         </div>
+        <div class="comments">
+          {{ template "_internal/disqus.html" . }}
+        </div>
       </article>
     </div>
   </section>
