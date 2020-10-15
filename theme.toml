@@ -8,7 +8,10 @@ description = "a Hugo port of Jekyll Now, later forked and modified"
 homepage = "https://github.com/jimmyangel/hugo-later"
 tags = ["blog", "profile", "jekyll-now", "bootstrap", "font awesome", "responsive", "pygments"]
 features = ["blog"]
-min_version = 0.24
+min_version = "0.57.0"
+
+[params]
+  mainSections = ["about", "post"]
 
 [author]
   name = "Ricardo Morin"
