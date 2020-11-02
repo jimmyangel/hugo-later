@@ -1,0 +1,20 @@
+{{ partial "header" . }}
+{{ partial "nav" . }}
+<div class="container">
+  <section class="section posts">
+      {{ $paginator := .Paginate .Pages }}
+      {{ range sort $paginator.Pages }}
+      <article class="post">
+        {{ partial "post-metadata-list" . }}
+        <div class="content">
+          {{ partial "banner" . }}
+          <!-- supports emoji -->
+          {{ .Summary | emojify }}
+        </div>
+        <br><a class="read-more" href="{{ .Permalink }}">read more</a>{{ if .Draft }} ::Draft{{ end }}
+      </article>
+      {{ end }}
+  </section>
+</div>
+{{ partial "paginate-list" . }}
+{{ partial "footer" . }}
